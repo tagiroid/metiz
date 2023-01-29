@@ -7,9 +7,8 @@ while True:
     if first == 'q':
         break
     last = input('\nLast: ')
-    if last =='q':
+    if last == 'q':
         break
 
-    formated = get_formatted_name(first, last)
-    print(f'Formatted name: {formated}')
-
+    formatted = get_formatted_name(first, last)
+    print(f'Formatted name: {formatted}')
